@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Plml</title>
+
+</head><body>
+<h1 style="text-align: center;"><big><big>Plml</big></big></h1>
+<div style="text-align: center;">
+<h1>The Python Library for MetaLinks</h1>
+</div>
+<div style="text-align: center;">
+<h2>Version 0.1, April 2010</h2>
+</div>
+This library implements as of now a parser and set of
+utilities for using <a href="http://www.metalinker.org/">Metalinks</a>,
+an
+XML-based way of describing how to download and install a set of files.
+&nbsp;The only other programs needed are a <a href="http://www.python.org/">Python</a> interpreter, <a href="http://codespeak.net/lxml/">lxml</a>, and <a href="http://www.gnupg.org/">GNU Privacy Guard</a> for
+signature functions. &lt;bittorrent&gt; elements are not yet
+supported, given the lack of support for torrents in the standard
+library<span style="font-family: monospace;"> :-)&nbsp;</span>Overall
+it's lightweight, even with schema checks and file text storage. Given
+that this is a very new project, there are probably still some major
+bugs still in the code and any feedback on them would be greatly
+appreciated.
+<br>
+<h2>Goals and Objectives</h2>The intent is to support the entire <a href="http://www.metalinker.org/Metalink_3.0_Spec.pdf">specification</a>,
+nonstandard variations, two-way porcessing, and possibly support for
+revision control systems (like the one you're staring at right now).
+With performance still in mind, as much of the library should be
+written in Python as possible to allow for more extending and
+improvement. Follow the <a href="http://www.python.org/dev/peps/pep-0008/">style</a>, share, and enjoy.
+</body></html>
